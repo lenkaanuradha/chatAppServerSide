@@ -12,7 +12,7 @@ dotenv.config();
 
 const app = express();
 const server = http.createServer(app);
-const allowedOrigins = ['http://localhost:5173', 'https://chatbox-gray.vercel.app'];
+const allowedOrigins = ['http://localhost:5173', 'https://chatterbox-anuradhas-projects-05b34369.vercel.app/'];
 
 const io = new Server(server, {
   cors: {
