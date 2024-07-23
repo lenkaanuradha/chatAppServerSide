@@ -12,7 +12,7 @@ dotenv.config();
 
 const app = express();
 const server = http.createServer(app);
-const allowedOrigins = ['http://localhost:5173', 'https://chat-app-client-side-mu.vercel.app/'];
+const allowedOrigins = ['http://localhost:5173', 'https://chatbox-lilac-five.vercel.app'];
 
 const io = new Server(server, {
   cors: {
